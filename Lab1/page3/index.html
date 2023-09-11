@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="uk">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Лабораторна 1 - головна</title>
+  </head>
+  <body>
+    <header>
+      <h2>Козачек Олександр Олексійович</h2>
+      <h2>КН-32</h2>
+      <h2>4 Варіант</h2>
+      <h3><a href="../page1/index.html">Повернутись на головну</a></h3>
+    </header>
+    <main>
+      <h1>Завдання</h1>
+      <p>
+        Необхідно розробити форму для введення товару до веб-системи. Необхідно
+        заповнити наступні данні:
+      </p>
+      <ul>
+        <li>
+          дані про товар, включають назву товару, тип товару(вибирається зі
+          списку), дату виробництва, ціну, кількість на складі (ціле число від 1
+          до 100000);
+        </li>
+
+        <li>
+          дані про виробника, включають назву, юридичну адресу, електрону пошту,
+          посилання на веб-сайт, коментарі.
+        </li>
+      </ul>
+
+      <form style="width: 32%;">
+        <fieldset>
+          <legend>Товар</legend>
+          <label>
+            Назва
+            <input type="text">
+          </label>
+          <label>
+            Тип
+            <select>
+              <option value="tablet">Планшет</option>
+              <option value="phone">Телефон</option>
+            </select>
+          </label>
+          <label>
+            Дата виробництва
+            <input type="date">
+          </label>
+          <label>
+            Ціна
+            <input type="number">
+          </label>
+          <label>
+            Кількість на складі
+            <input type="number" min="1" max="100000">
+          </label>
+        </fieldset>
+        <fieldset>
+          <legend>Дані про виробника</legend>
+          <label>
+            Назва
+            <input type="text">
+          </label>
+          <label>
+            Юридична адреса
+            <input type="text">
+          </label>
+          <label>
+            Електронна пошта
+            <input type="email">
+          </label>
+          <label>
+            Посилання на веб-сайт
+            <input type="text">
+          </label>
+          <label>
+            Коментарі
+           <textarea cols="30" rows="10"></textarea>
+          </label>
+        </fieldset>
+        <input type="submit" value="Додати">
+      </form>
+    </main>
+  </body>
+</html>
