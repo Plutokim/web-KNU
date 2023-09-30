@@ -1,0 +1,30 @@
+body{
+  margin: 0;
+  padding: 0;
+  font-size: 1.4rem;
+}
+
+img {
+    width: 200px;
+}
+
+.left-side-image {
+    float: left;
+}
+
+.right-side-image {
+    float: right;
+}
+
+.dark-green-bold-text {
+    color: darkgreen;
+    font-weight: bold;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.green-text {
+    color: green;
+}
