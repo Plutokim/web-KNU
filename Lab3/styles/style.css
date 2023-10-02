@@ -1,0 +1,26 @@
+@import url(reset.css);
+@import url(base.css);
+@import url(heading.css);
+@import url(navigation.css);
+@import url(content.css);
+@import url(footer.css);
+@import url(aside.css);
+
+.header {
+  display: flex;
+  justify-content: center;
+  background-color: var(--color-blue);
+}
+
+.main {
+  background-color: var(--color-darkblue);
+  display: flex;
+  justify-content: center;
+}
+
+.side-content {
+  width: 440px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}

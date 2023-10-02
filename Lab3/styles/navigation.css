@@ -1,0 +1,42 @@
+.navigation {
+  width: 600px;
+  height: 350px;
+  padding: 15px 145px;
+}
+
+.navigation_wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  gap: 10px;
+  height: 100%;
+}
+
+.navigation_link {
+  color: var(--color-lightyellow);
+  font-family: var(--font-family-h);
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.navigation_link:hover {
+  color: var(--color-coral);
+  font-family: var(--font-family-h);
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  position: relative;
+  cursor: pointer;
+}
+
+.navigation_link:hover::before {
+  content: url("../public/icons/nav-arrow.svg");
+  height: 20px;
+  width: 20px;
+  position: absolute;
+  left: -30px;
+}

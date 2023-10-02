@@ -1,0 +1,23 @@
+.heading {
+  width: 840px;
+  height: 350px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+
+.heading_text {
+  color: var(--color-white);
+  width: 480px;
+  font-family: var(--font-family-h);
+  font-size: 29px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.heading_icon {
+  width: 200px;
+  height: 212px;
+}
