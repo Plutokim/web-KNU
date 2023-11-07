@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="uk">
+  <head>
+    <meta charset="UTF-8" >
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+    <title>Мойдодір</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+      integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn"
+      crossorigin="anonymous"
+    >
+    <link rel="stylesheet" href="./styles/style.css" >
+  </head>
+  <body>
+    <header class="container-fluid header header-with-bg">
+      <nav class="navigation">
+        <ul class="navigation-menu">
+          <li class="navigation-item navigation-item-colored with-pointer">
+            Про Мойдодіра
+          </li>
+          <li class="navigation-item navigation-item-colored with-pointer">
+            Звʼязатись з нами
+          </li>
+          <li class="navigation-item navigation-item-colored with-pointer">
+            Ревізії книжок про Мойдодіра
+          </li>
+          <li class="navigation-item navigation-item-colored with-pointer">
+            Реклама на сайті
+          </li>
+          <li class="navigation-item navigation-item-colored with-pointer">
+            Кінець сторінки
+          </li>
+        </ul>
+      </nav>
+      <input type="text" class="search" placeholder="Пошук" >
+    </header>
+    <main class="container-fluid main">
+      <div class="row" style="width: 100%">
+        <aside class="col-md-4 col-12">
+          <ul class="ad-card-container">
+            <li class="ad-card with-pointer">
+              <img
+                class="ad-card-image with-pointer"
+                src="./img/ad1.png"
+                alt="ad1"
+              >
+              <p class="ad-card-title ad-card-title-colored">
+                Неймовірні губки від Freken Bok
+              </p>
+            </li>
+            <li class="ad-card with-pointer">
+              <img class="ad-card-image" src="./img/ad2.png" alt="ad2" >
+              <p class="ad-card-title ad-card-title-colored">
+                Неймовірний гель від Mr Proper
+              </p>
+            </li>
+            <li class="ad-card with-pointer">
+              <img class="ad-card-image" src="./img/ad3.jpeg" alt="ad3" >
+              <p class="ad-card-title ad-card-title-colored">
+                Неймовірний омивач від Mr Muscule
+              </p>
+            </li>
+          </ul>
+        </aside>
+        <div class="content col-md-8 col-12">
+          <div class="info">
+            <img class="info-image" src="./img/moidodir1.jpeg" alt="moidodir" >
+            <div>
+              <h2 class="info-title info-title-colored">
+                Хто ж такий наш Мойдодір?
+              </h2>
+              <p class="info-text">
+                У широкому світі дитячої літератури і казок існують безліч
+                цікавих та незвичайних персонажів, які завжди надихають нас
+                своєю непересічністю. Серед них неможливо не згадати імені, яке
+                залишає невимовну слід в скарбниці української дитячої
+                літератури - Мойдодір. Цей справжній герой книг Корнія
+                Чуковського завжди зберігав свою унікальність та неповторність,
+                завдяки чому здобув велику популярність серед дітей та дорослих.
+                Мойдодір - це не просто персонаж, він - великий Умивальник. Він
+                відомий своєю неабиякою здатністю вмивати все, що тільки може
+                потребувати миття. Він став справжнім Мийдодіром для свого
+                світу, який ніколи не залишається брудним чи недоглянутим. А що
+                важливо, Мойдодір - це Начальник усіх умивальників і Командир
+                мочалок.
+              </p>
+            </div>
+          </div>
+          <div class="info">
+            <img class="info-image" src="./img/moidodir3.jpg" alt="" >
+            <div class="info-wrapper">
+              <div>
+                <h4 class="email-title email-title-colored">
+                  Надішліть Ваш email і ми обовʼязково звʼяжемось з вами
+                </h4>
+                <div class="email-container">
+                  <input
+                    type="email"
+                    class="email-input"
+                    placeholder="Ваша пошта"
+                  >
+                  <button class="btn btn-colored">Звʼязатись</button>
+                </div>
+              </div>
+              <div class="revision-container">
+                <img class="revision-image" src="./img/book1.jpeg" alt="book" >
+                <ul class="revision-items">
+                  <li
+                    class="revision-item revision-item-colored with-pointer"
+                    onclick="setRevisionImage('./img/book1.jpeg')"
+                  >
+                    Перша ревізія
+                  </li>
+                  <li
+                    class="revision-item revision-item-colored with-pointer"
+                    onclick="setRevisionImage('./img/book2.png')"
+                  >
+                    Друга ревізія
+                  </li>
+                  <li
+                    class="revision-item revision-item-colored with-pointer"
+                    onclick="setRevisionImage('./img/book3.png')"
+                  >
+                    Третя ревізія
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <ul class="navigation-menu navigation-menu-large">
+            <li
+              class="navigation-item navigation-item-colored navigation-item-large with-pointer"
+            >
+              Про Мойдодіра
+            </li>
+            <li
+              class="navigation-item navigation-item-colored navigation-item-large with-pointer"
+            >
+              Звʼязатись з нами
+            </li>
+            <li
+              class="navigation-item navigation-item-colored navigation-item-large with-pointer"
+            >
+              Ревізії книжок про Мойдодіра
+            </li>
+            <li
+              class="navigation-item navigation-item-colored navigation-item-large with-pointer"
+            >
+              Реклама на сайті
+            </li>
+            <li
+              class="navigation-item navigation-item-colored navigation-item-large with-pointer"
+            >
+              Початок сторінки
+            </li>
+          </ul>
+        </div>
+      </div>
+    </main>
+    <script>
+      function setRevisionImage(bgUrl) {
+        const revisionImage = document.querySelector(".revision-image");
+        revisionImage.src = bgUrl;
+      }
+    </script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
