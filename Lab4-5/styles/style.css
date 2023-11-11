@@ -1,5 +1,9 @@
 @import url(reset.css);
 
+.menu-btn{
+    display: none;
+}
+
 .wrapper {
   width: 1370px;
 }
@@ -148,6 +152,7 @@
 .business_cards_conatiner {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 .business_card {
@@ -234,6 +239,10 @@
   justify-content: center;
 }
 
+.button-video {
+    width: 245px;
+}
+
 .sub-heading {
   color: #424242;
   font-family: Lato;
@@ -283,4 +292,711 @@
   width: 638px;
   height: 573px;
   margin-left: 60px;
+}
+
+@media only screen and (max-width: 1200px) and (min-width: 900px)  {
+    .wrapper {
+        width: 900px;
+      }
+      
+      .navigation {
+        gap: 40px;
+      }
+      
+      .navigation-item {
+        display: block;
+        color: #292929;
+        font-family: Lato;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+      }
+      
+      .sing-in-link {
+        display: block;
+        color: #000;
+        font-family: Lato;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+      }
+      
+      .main-button {
+        padding: 20px 30px;
+        color: #fff;
+        text-align: center;
+        font-family: Lato;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 20px;
+        border-radius: 4px;
+        background: #01996d;
+      }
+      
+      .trial-button {
+        padding: 13px 30px !important;
+      }
+      
+      .login-wrapper {
+        display: flex;
+        gap: 25px;
+        align-items: center;
+      }
+      
+      .footer {
+        height: 550px;
+      }
+      
+      .footer-heading {
+        font-family: Lato;
+        color: #fff;
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: normal;
+        margin-bottom: 40px;
+      }
+      
+      .footer-navigation {
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+      }
+      
+      .footer-navigation-item {
+        color: #fff;
+        font-family: Lato;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        cursor: pointer;
+      }
+      
+      .section-with-bg {
+        background: url("../img/bg.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 595px;
+      }
+      
+      .main-heading {
+        font-family: Georgia;
+        font-size: 45px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        line-height: 55px;
+      }
+      
+      .paragraph {
+        color: #484848;
+        font-family: Lato;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 157%;
+      }
+      
+      .first-p-styled {
+        margin-top: 30px;
+        margin-bottom: 30px;
+        width: 420px;
+      }
+      
+      .card-section {
+        padding-top: 100px;
+        padding-bottom: 35px;
+      }
+      
+      .business_cards_conatiner {
+        display: flex;
+        justify-content: space-between;
+      }
+      
+      .business_card {
+        width: 270px;
+        height: 686px;
+      }
+ 
+      .business_card_heading {
+        height: 155px;
+        width: 270px;
+      }
+      
+      .business_card_info {
+        color: #424242;
+        font-family: Lato;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 16px;
+        margin-top: 10px;
+      }
+      
+      .business_card_image {
+        display: block;
+        height: 341px;
+        width: 270px;
+        border-radius: 12px;
+      }
+      
+      .section-video {
+        padding-top: 229px;
+        padding-bottom: 177px;
+      }
+      
+
+      .video-img {
+        width: 496px;
+        height: 316px;
+        border-radius: 16px;
+      }
+      
+      .wrapper-video {
+        display: flex;
+        width: 900px;
+        justify-content: space-between;
+      }
+      
+      .heading {
+        font-family: Georgia;
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 157%;
+      }
+      
+      .heading-green {
+        color: #01996d;
+      }
+      
+      .heading-white {
+        color: #fff;
+      }
+      
+      .paragraph-video {
+        color: #fff;
+        font-family: Lato;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 157%; /* 39.25px */
+        padding-top: 33px;
+        padding-bottom: 57px;
+      }
+      
+      .video-info {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+      }
+      
+      
+      .sub-heading {
+        color: #424242;
+        font-family: Lato;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 157%;
+      }
+      
+      .section-cards-info-container {
+        display: flex;
+        justify-content: space-between;
+        align-items: end;
+        margin-bottom: 32px;
+      }
+      
+      .section-cards-paragraph {
+        width: 471px;
+      }
+      
+      .wrapper-about {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 87px;
+        padding-top: 120px;
+        padding-bottom: 243px;
+      }
+      
+      .paragraph-about {
+        margin-top: 20px;
+        margin-bottom: 40px;
+      }
+      
+      .container-about {
+        position: relative;
+      }
+      
+      .about-card {
+        position: absolute;
+        top: 230px;
+        left: 0px;
+        width: 130px;
+        height: auto;
+      }
+      
+      .about-person {
+        display: block;
+        width: 340px;
+        height: auto;
+        margin-left: 40px;
+      }
+}
+
+@media only screen and (max-width: 899px) and (min-width: 600px) {
+    .wrapper {
+        width: 600px;
+      }
+      
+      .section {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .menu-btn {
+        display: block;
+      }
+      
+      .header {
+        height: 65px;
+      }
+      
+      .navigation {
+        display: none;
+      }
+      
+      
+      .main-button {
+        padding: 20px 50px;
+        color: #fff;
+        text-align: center;
+        font-family: Lato;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 25px;
+        border-radius: 4px;
+        background: #01996d;
+      }
+
+      
+      .login-wrapper {
+        display: none;
+      }
+      
+      .footer {
+        height: 300px;
+      }
+      
+      .footer-heading {
+        font-size: 30px;
+        margin-bottom: 20px;
+        text-align: center;
+      }
+      
+      .footer-navigation {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+      }
+      
+      .footer-navigation-item {
+        font-size: 20px;
+      }
+      
+      .section-with-bg {
+        height: 400px;
+      }
+      
+      .main-heading {
+        font-size: 35px;
+        line-height: 40px;
+      }
+      
+      .paragraph {
+        font-size: 14px;
+      }
+      
+      .first-p-styled {
+        margin-top: 15px;
+        margin-bottom: 25px;
+        width: 250px;
+      }
+      
+      .card-section {
+        padding-top: 20px;
+        padding-bottom: 20px;
+      }
+      
+      .business_cards_conatiner {
+        flex-direction: column;
+      }
+
+      
+      .business_card_s {
+        margin-top: 0px;
+      }
+      
+      .business_card_t {
+        margin-top: 0px;
+      }
+      
+      .business_card_heading {
+        height: 225px;
+        width: 390px;
+      }
+      
+      .business_card_info {
+        color: #424242;
+        font-family: Lato;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 20px;
+        margin-top: 10px;
+        margin-bottom: 20px;
+      }
+      
+      .business_card_image {
+        height: 492px;
+        width: 390px;
+        border-radius: 12px;
+      }
+      
+      .section-video {
+        padding-top: 50px;
+        padding-bottom: 25px;
+      }
+      
+      .video-img {
+        width: 600px;
+        height: auto;
+        border-radius: 16px;
+      }
+      
+      .wrapper-video {
+        display: flex;
+        flex-direction:column ;
+        width: 600px;
+        gap: 30px;
+      }
+      
+      .heading {
+        font-size: 30px;
+      }
+      
+      .paragraph-video {
+        color: #fff;
+        font-family: Lato;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 157%; /* 39.25px */
+        padding-top: 15px;
+        padding-bottom: 25px;
+      }
+      
+      .video-info {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+      
+      .button-video {
+          width: 245px;
+      }
+      
+      .sub-heading {
+        font-size: 18px;
+      }
+      
+      .section-cards-info-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+        margin-bottom: 25px;
+      }
+      
+      .section-cards-paragraph {
+        width: 340px;
+      }
+      
+      .wrapper-about {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 87px;
+        padding-top: 30px;
+        padding-bottom: 50px;
+      }
+      
+      .paragraph-about {
+        margin-top: 20px;
+        margin-bottom: 40px;
+        width: 400px;
+      }
+      
+      .container-about {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+      
+      .about-card {
+        position: static;
+        width: 450px;
+        height: auto;
+      }
+      
+      .about-person {
+        display: block;
+        width: 560px;
+        height: auto;
+        margin-left: 0px;
+      }
+    
+}
+
+@media only screen and (max-width: 599px) {
+    .wrapper {
+        width: 450px;
+      }
+
+    .section-with-bg {
+        background: url("../img/bg.png");
+        background-repeat: no-repeat;
+        background-size: contain;
+        height: fit-content;
+    }
+
+    .section-with-bg > .wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 280px;
+    }
+      
+      .section {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .menu-btn {
+        display: block;
+      }
+      
+      .header {
+        height: 65px;
+      }
+      
+      .navigation {
+        display: none;
+      }
+      
+      
+      .main-button {
+        padding: 20px 50px;
+        color: #fff;
+        text-align: center;
+        font-family: Lato;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 25px;
+        border-radius: 4px;
+        background: #01996d;
+      }
+
+      
+      .login-wrapper {
+        display: none;
+      }
+      
+      .footer {
+        height: 300px;
+      }
+      
+      .footer-heading {
+        font-size: 30px;
+        margin-bottom: 20px;
+        text-align: center;
+      }
+      
+      .footer-navigation {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+      }
+      
+      .footer-navigation-item {
+        font-size: 20px;
+      }
+      
+      .main-heading {
+        font-size: 35px;
+        line-height: 40px;
+      }
+      
+      .paragraph {
+        font-size: 14px;
+      }
+      
+      .first-p-styled {
+        margin-top: 15px;
+        margin-bottom: 25px;
+        width: 250px;
+      }
+      
+      .card-section {
+        padding-top: 20px;
+        padding-bottom: 20px;
+      }
+      
+      .business_cards_conatiner {
+        flex-direction: column;
+      }
+
+      
+      .business_card_s {
+        margin-top: 0px;
+      }
+      
+      .business_card_t {
+        margin-top: 0px;
+      }
+      
+      .business_card_heading {
+        height: 225px;
+        width: 390px;
+      }
+      
+      .business_card_info {
+        color: #424242;
+        font-family: Lato;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 20px;
+        margin-top: 10px;
+        margin-bottom: 20px;
+      }
+      
+      .business_card_image {
+        height: 492px;
+        width: 390px;
+        border-radius: 12px;
+      }
+      
+      .section-video {
+        padding-top: 50px;
+        padding-bottom: 25px;
+      }
+      
+      .video-img {
+        width: 400px;
+        height: auto;
+        border-radius: 16px;
+      }
+      
+      .wrapper-video {
+        display: flex;
+        flex-direction:column ;
+        align-items: center;
+        width: 450px;
+        gap: 30px;
+      }
+      
+      .heading {
+        font-size: 30px;
+      }
+      
+      .paragraph-video {
+        color: #fff;
+        font-family: Lato;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 157%; /* 39.25px */
+        padding-top: 15px;
+        padding-bottom: 25px;
+      }
+      
+      .video-info {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+      
+      .button-video {
+          width: 245px;
+      }
+      
+      .sub-heading {
+        font-size: 18px;
+      }
+      
+      .section-cards-info-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+        margin-bottom: 25px;
+      }
+      
+      .section-cards-paragraph {
+        width: 340px;
+      }
+      
+      .wrapper-about {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 87px;
+        padding-top: 30px;
+        padding-bottom: 50px;
+      }
+      
+      .paragraph-about {
+        margin-top: 20px;
+        margin-bottom: 40px;
+        width: 400px;
+      }
+      
+      .container-about {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+      
+      .about-card {
+        position: static;
+        width: 400px;
+        height: auto;
+      }
+      
+      .about-person {
+        display: block;
+        width: 400px;
+        height: auto;
+        margin-left: 0px;
+      }
+    
 }
