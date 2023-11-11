@@ -1,0 +1,286 @@
+@import url(reset.css);
+
+.wrapper {
+  width: 1370px;
+}
+
+.section {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header {
+  height: 85px;
+}
+
+.header-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  display: block;
+  width: 80px;
+  height: 23px;
+}
+
+.navigation {
+  display: flex;
+  gap: 72px;
+}
+
+.navigation-item {
+  display: block;
+  color: #292929;
+  font-family: Lato;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.sing-in-link {
+  display: block;
+  color: #000;
+  font-family: Lato;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.main-button {
+  padding: 20px 50px;
+  color: #fff;
+  text-align: center;
+  font-family: Lato;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25px;
+  border-radius: 4px;
+  background: #01996d;
+}
+
+.trial-button {
+  padding: 13px 50px !important;
+}
+
+.login-wrapper {
+  display: flex;
+  gap: 35px;
+  align-items: center;
+}
+
+.footer {
+  height: 654px;
+}
+
+.section-green {
+  background: #245852;
+}
+
+.footer-heading {
+  font-family: Lato;
+  color: #fff;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  margin-bottom: 60px;
+}
+
+.footer-navigation {
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+}
+
+.footer-navigation-item {
+  color: #fff;
+  font-family: Lato;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  cursor: pointer;
+}
+
+.section-with-bg {
+  background: url("../img/bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 895px;
+}
+
+.main-heading {
+  font-family: Georgia;
+  font-size: 65px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  line-height: 74px;
+}
+
+.paragraph {
+  color: #484848;
+  font-family: Lato;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 157%;
+}
+
+.first-p-styled {
+  margin-top: 30px;
+  margin-bottom: 50px;
+  width: 420px;
+}
+
+.card-section {
+  padding-top: 169px;
+  padding-bottom: 51px;
+}
+
+.business_cards_conatiner {
+  display: flex;
+  justify-content: space-between;
+}
+
+.business_card {
+  width: 392px;
+}
+
+.business_card_s {
+  margin-top: 287px;
+}
+
+.business_card_t {
+  margin-top: 54px;
+}
+
+.business_card_heading {
+  height: 225px;
+  width: 390px;
+}
+
+.business_card_info {
+  color: #424242;
+  font-family: Lato;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 30px;
+  margin-top: 10px;
+  margin-bottom: 60px;
+}
+
+.business_card_image {
+  height: 492px;
+  width: 390px;
+  border-radius: 12px;
+}
+
+.section-video {
+  padding-top: 229px;
+  padding-bottom: 177px;
+}
+
+.video-img {
+  width: 896px;
+  height: 516px;
+  border-radius: 16px;
+}
+
+.wrapper-video {
+  display: flex;
+  width: 1506px;
+  justify-content: space-between;
+}
+
+.heading {
+  font-family: Georgia;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 157%;
+}
+
+.heading-green {
+  color: #01996d;
+}
+
+.heading-white {
+  color: #fff;
+}
+
+.paragraph-video {
+  color: #fff;
+  font-family: Lato;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 157%; /* 39.25px */
+  padding-top: 33px;
+  padding-bottom: 57px;
+}
+
+.video-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.sub-heading {
+  color: #424242;
+  font-family: Lato;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 157%; /* 37.68px */
+}
+
+.section-cards-info-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+  margin-bottom: 52px;
+}
+
+.section-cards-paragraph {
+  width: 671px;
+}
+
+.wrapper-about {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 87px;
+  padding-top: 120px;
+  padding-bottom: 243px;
+}
+
+.paragraph-about {
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+.container-about {
+  position: relative;
+}
+
+.about-card {
+  position: absolute;
+  top: 354px;
+  left: -60px;
+}
+
+.about-person {
+  display: block;
+  width: 638px;
+  height: 573px;
+  margin-left: 60px;
+}
