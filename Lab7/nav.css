@@ -1,0 +1,30 @@
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 16px;
+    background-color: brown;
+}
+
+nav a {
+    display:block;
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+nav a:hover {
+    color: bisque;
+    text-decoration: underline;
+}
+
+.active {
+    color:bisque;
+}
+
+.active:hover {
+    color: white;
+}

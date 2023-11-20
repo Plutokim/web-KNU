@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="uk">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab7</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="nav.css">
+  </head>
+  <body>
+    <header>
+      <h1>Лабораторна робота №2. Javascript</h1>
+      <h2>Виконав Козачек O.O.</h2>
+      <h2>Варіант 4</h2>
+      <nav>
+        <a href="../Lab6/index.html">Лабораторна 1</a>
+        <a class="active" href="./index.html">Лабораторна 2</a>
+        <a href="#">Лабораторна 3</a>
+        <a href="#">Лабораторна 4</a>
+      </nav>
+    </header>
+    <main>
+      <h2>Завдання на лабораторну роботу</h2>
+      <p>
+        На Вашій сторінці є кнопка. При наведенні на неї вивести текст.<br>
+        Ввести групу (з клавіатури), прізвище студента та курс (поля<br>
+        вводу). Якщо неправильно вказано курс (перша цифра номеру<br>
+        групи), вивести попередження, інакше вивести повне ім’я<br>
+        студента.<br>
+      </p>
+      <div>
+        <label for="group">Група:</label>
+        <input type="text" id="group" placeholder="Введіть групу">
+      </div>
+      <div>
+        <label for="lastname">Прізвище студента:</label>
+        <input type="text" id="lastname" placeholder="Введіть прізвище">
+      </div>
+      <div>
+        <label for="course">Курс:</label>
+        <input type="text" id="course" placeholder="Введіть курс">
+      </div>
+      <p id="info"></p>
+      <button id="btn">Кнопка</button>
+    </main>
+    <script src="./index.js"></script>
+  </body>
+</html>
