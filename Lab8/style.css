@@ -1,0 +1,69 @@
+main, body {
+    margin: 0;
+    padding: 0;
+}
+h1,h2,p {
+    margin: 0;
+}
+header {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+    color: white;
+    background-color: orange;
+}
+main {
+    padding: 16px;
+    background-color: aqua;
+}
+main > h2 {
+    margin: 10px 0;
+}
+
+#info {
+    margin: 30px;
+    background-color: brown;
+    color: white;
+}
+
+.block {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin: 10px;
+    position: relative;
+}
+
+.close-btn {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    cursor: pointer;
+}
+
+.red {
+    background: red;
+}
+
+.blue {
+    background: blue;
+}
+
+.green {
+    background: green;
+}
+
+table {
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    cursor: pointer;
+}
+
+td.active {
+    background-color: red;
+}

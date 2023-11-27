@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="uk">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab7</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="nav.css">
+  </head>
+  <body>
+    <header>
+      <h1>Лабораторна робота №3. Javascript</h1>
+      <h2>Виконав Козачек O.O.</h2>
+      <h2>Варіант 4</h2>
+      <nav>
+        <a href="../Lab6/index.html">Лабораторна 1</a>
+        <a href="../Lab7/index.html">Лабораторна 2</a>
+        <a class="active" href="./index.html">Лабораторна 3</a>
+        <a href="#">Лабораторна 4</a>
+      </nav>
+    </header>
+    <main>
+      <h2>Завдання 1</h2>
+      <p>
+        Дано блок з кнопкою 'закрити блок'. При натисканні на цю кнопку блок<br>
+        повинен зникнути з форми. Кнопка розміщується всередині блоку і повинна<br>
+        зникнути разом з ним. Блоків може бути будь-яка кількість, допускається щоб<br>
+        один з блоків був всередині іншого. Кожен блок закриває своя кнопка.<br>
+      </p>
+      <div id="blocks-container">
+        <div class="block red">
+          <button class="close-btn" onclick="closeBlock(this)">Закрити блок</button>
+          <p>Це перший блок</p>
+      </div>
+      
+      <div class="block blue">
+          <button class="close-btn" onclick="closeBlock(this)">Закрити блок</button>
+          <p>Це другий блок</p>
+          <div class="block green">
+              <button class="close-btn" onclick="closeBlock(this)">Закрити блок</button>
+              <p>Це внутрішній блок</p>
+              <div class="block red">
+                <button class="close-btn" onclick="closeBlock(this)">Закрити блок</button>
+                <p>Це перший блок</p>
+            </div>
+          </div>
+      </div>
+      </div> 
+      <h2>Завдання 2</h2>
+      <p>
+        Дана таблиця з числами. При натисканні на комірку, вона активується і<br>
+        стає червоного кольору. Активувати можна багато комірок. Під таблицею<br>
+        кнопка. При натисканні цієї кнопки в абзац нижче виведіть суму активованих<br>
+        комірок. Реалізуйте також кнопку "скинути активовані комірки".<br>
+      </p>
+      <div>
+        <table id="myTable">
+          <tr>
+              <td onclick="toggleCell(this)">1</td>
+              <td onclick="toggleCell(this)">2</td>
+              <td onclick="toggleCell(this)">3</td>
+          </tr>
+          <tr>
+              <td onclick="toggleCell(this)">4</td>
+              <td onclick="toggleCell(this)">5</td>
+              <td onclick="toggleCell(this)">6</td>
+          </tr>
+      </table>
+      
+      <button onclick="calculateSum()">Вивести суму активованих комірок</button>
+      <button onclick="resetCells()">Скинути активовані комірки</button>
+      <p id="result"></p>
+      </div>
+    </main>
+    <script src="./index.js"></script>
+  </body>
+</html>
