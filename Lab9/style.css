@@ -1,0 +1,44 @@
+main, body {
+    margin: 0;
+    padding: 0;
+}
+h1,h2,p {
+    margin: 0;
+}
+header {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+    color: white;
+    background-color: orange;
+}
+main {
+    padding: 16px;
+    background-color: aqua;
+}
+main > h2 {
+    margin: 10px 0;
+}
+
+#info {
+    margin: 30px;
+    background-color: brown;
+    color: white;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 20px;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+
+form {
+    margin-top: 20px;
+}

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="uk">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab7</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="nav.css">
+  </head>
+  <body>
+    <header>
+      <h1>Лабораторна робота №4. Javascript</h1>
+      <h2>Виконав Козачек O.O.</h2>
+      <h2>Варіант 4</h2>
+      <nav>
+        <a href="../Lab6/index.html">Лабораторна 1</a>
+        <a href="../Lab7/index.html">Лабораторна 2</a>
+        <a href="../Lab8/index.html">Лабораторна 3</a>
+        <a class="active" href="./index.html">Лабораторна 4</a>
+      </nav>
+    </header>
+    <main>
+      <h2>Завдання на лабораторну роботу</h2>
+      <p>
+        Розробити сторінку зі скриптом, в якому створюється об'єкт Квартира з<br>
+        4-ма властивостями: адреса, кількість кімнат, ціна, ремонт. Створити масив з<br>
+        декількома об‘єктами даного класу. Вивести після натискання кнопки всі<br>
+        значення властивостей на екран у вигляді таблиці.<br>
+      </p>
+     <div>
+      <form id="apartmentForm">
+        <label for="address">Адреса:</label>
+        <input type="text" id="address" name="address" required><br>
+    
+        <label for="rooms">Кількість кімнат:</label>
+        <input type="number" id="rooms" name="rooms" required><br>
+    
+        <label for="price">Ціна:</label>
+        <input type="number" id="price" name="price" required><br>
+    
+        <label for="repair">Ремонт:</label>
+        <input type="text" id="repair" name="repair" required><br>
+    
+        <button type="button" onclick="addApartment()">Додати квартиру</button>
+    </form>
+    
+    <button onclick="displayApartments()">Вивести інформацію про квартири</button>
+     </div>
+    </main>
+    <script src="./index.js"></script>
+  </body>
+</html>
